@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
+
 *{
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
@@ -41,7 +42,13 @@
  width: 100%;
  padding: 15px;
  color: #FFFF;
- cursor: pointer;
  outline: 0;
  
+}
+
+p{
+    text-align: center;
+    font-size: 12px x-large;
+    font-family: 'Source Sans Pro', sans-serif;
+
 }

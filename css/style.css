@@ -10,8 +10,38 @@
     
 }
 
+.login-page{
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+
 .form{
-    display: flexbox;
-    margin: 0;
-    background-color: rgb(193, 223, 185);
+    position: relative;
+    background: rgb(149, 199, 149);
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 10px 5px 5px rgba(124, 140, 124,1);
+}
+
+.form input{
+    width: 100%;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    
+    
+}
+
+.form input.button{
+ text-transform: uppercase;
+ border: 0;
+ background: #4ACF50;
+ width: 100%;
+ padding: 15px;
+ color: #FFFF;
+ cursor: pointer;
+ outline: 0;
+ 
 }

@@ -1,0 +1,94 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+    font-size: 1.2rem;
+    line-height: 1.4em;
+    margin: 0;
+}
+
+.container{
+    width: 85%;
+    max-width: 850px;
+    margin :0 auto;
+}
+
+.header{
+    background: #333;
+    color: withe;
+    padding: 2rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+    .header a{
+        color:white;
+        text-decoration: none;
+    }
+
+div.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navegation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+    .navegation ul li{
+        display: inline-block;
+
+    }
+
+    .navegation ul li a{
+        display: block;
+        padding: 0.5rem 1rem;
+        transition: all 0.4s linear;
+        border-radius: 1.5px;
+    }
+    .navegation ul li a:hover{
+        background:#4a4a4a;
+    }
+
+.menu-icon{
+    display: none;
+}
+
+
+@media (max-width:502px) {
+
+.menu-icon{
+        display: block;
+        cursor: pointer;
+        padding: 0.5rem 1rem;
+        color: white;
+}
+
+.navegation{
+       width: 100%;
+       margin-top: 1rem;
+   }
+   .navegation ul{
+       display: none;
+   }
+   .navegation ul.show{
+       display: block;
+   }
+    .navegation ul li{
+        display: block;
+    
+}
+    
+    .navegation ul li a{
+    display: block;
+    padding: 0.5rem 0;
+    transition: all 0.4s linear;
+    border-radius: 1.5px;
+}
+    .navegation ul li a:hover{
+     background:#4a4a4a;
+}
+}

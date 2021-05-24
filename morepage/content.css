@@ -53,18 +53,20 @@ div.logo-nav-container{
         background:#4a4a4a;
     }
 
-.menu-icon{
+.material-icons-outlined{
     display: none;
 }
 
 
-@media (max-width:502px) {
+@media (max-width:530px) {
 
-.menu-icon{
+.icon-list{
         display: block;
         cursor: pointer;
         padding: 0.5rem 1rem;
         color: white;
+        font-size: 40rem;
+        
 }
 
 .navegation{
